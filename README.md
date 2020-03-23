@@ -5,6 +5,9 @@ February 28, 2020
 Bike Share Project for Udacity
 
 ### Description
+
+-----This is what you will see as output, with varying results based on inputs---
+
 This is an application to show descriptive statistics on various areas of a bike share company.  
 
 You will be able to choose from the companies geographical locations, which months you'd like to choose
