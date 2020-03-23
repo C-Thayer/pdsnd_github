@@ -26,28 +26,28 @@ def get_filters():
     
     message = '''Invalid option please try again.'''
 
-    city = input("Please select a city: Chicago, New York City, or Washington: ").strip().lower()
+    city = input("Please select a city: Chicago, New York City, or Washington: ").lower()
 
     while city not in options:
         print(message)
-        city = input("Please select a city: Chicago, New York City, or Washington: ").strip().lower()
+        city = input("Please select a city: Chicago, New York City, or Washington: ").lower()
 
     
     # TO DO: get user input for month (all, january, february, ... , june)
     
-    month = input("Please enter a valid month (January - June) or use 'all' to choose all months: ").strip().lower()
+    month = input("Please enter a valid month (January - June) or use 'all' to choose all months: ").lower()
 
     while month not in months:
         print("Invalid input please try again.")
-        month = input("Please enter a valid month (January - June)  or use 'all' to choose all months: ").strip().lower()
+        month = input("Please enter a valid month (January - June)  or use 'all' to choose all months: ").lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     
-    day = input("Please enter a valid day or use 'all' to choose all days in the week: ").strip().lower()
+    day = input("Please enter a valid day or use 'all' to choose all days in the week: ").lower()
 
     while day not in DOW:
         print("Invalid input please try again.")
-        day = input("Please enter a valid day or use 'all' to choose all days in the week: ").strip().lower()
+        day = input("Please enter a valid day or use 'all' to choose all days in the week: ").lower()
 
     print('-'*40)
     return city, month, day
