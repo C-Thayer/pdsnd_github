@@ -2,7 +2,7 @@
 February 28, 2020
 
 ### Project Title
-Bike Share Project 
+Bike Share Project for Udacity
 
 ### Description
 This is an application to show descriptive statistics on various areas of a bike share company.  
