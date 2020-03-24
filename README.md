@@ -95,6 +95,6 @@ Would you like to restart? Enter yes or no.
 ### Files used
 chicago.csv
 new_york_city.csv
-washington.cs
+washington.csv
 
 
