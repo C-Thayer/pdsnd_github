@@ -2,8 +2,7 @@
 February 28, 2020
 
 ### Project Title
-Bike Share Project for Udacity
-
+Bike Share Project
 ### Description
 
 -----This is what you will see as output, with varying results based on inputs---
